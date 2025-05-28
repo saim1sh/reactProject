@@ -1,5 +1,3 @@
-import React from "react";
-
 function Trial() {
   return (
     <div className="bg-gray-50 dark:bg-gray-800">

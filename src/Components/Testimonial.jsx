@@ -1,4 +1,5 @@
 import React from "react";
+import michel from "../assets/avatar/michael-gouch.png";
 
 function Testimonial() {
   return (
@@ -26,7 +27,7 @@ function Testimonial() {
           <div className="flex items-center justify-center mt-6 space-x-3">
             <img
               className="w-6 h-6 rounded-full"
-              src="../assets/avatar/michael-gouch.png" // Corrected path
+              src={michel} 
               alt="profile picture"
             />
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">

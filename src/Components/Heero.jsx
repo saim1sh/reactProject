@@ -1,4 +1,4 @@
-import React from "react";
+import hero from "../assets/hero.png";
 
 function Heero() {
   return (
@@ -71,7 +71,7 @@ function Heero() {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="./assets/hero.png" alt="hero image" />
+          <img src={hero} alt="hero image" />
         </div>
       </div>
     </div>

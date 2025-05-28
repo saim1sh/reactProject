@@ -1,4 +1,4 @@
-import React from "react";
+import f2 from "../assets/features/feature-2.png";
 
 function Section3() {
   const features = [
@@ -15,7 +15,7 @@ function Section3() {
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="./assets/features/feature-2.png"
+            src={f2}
             alt="feature highlight"
           />
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">

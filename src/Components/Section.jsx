@@ -1,4 +1,4 @@
-import React from "react";
+import f1 from "../assets/features/feature-1.png";
 
 function Section() {
   const data = [
@@ -51,7 +51,11 @@ function Section() {
               traditional ITSM solutions.
             </p>
           </div>
-          <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./assets/features/feature-1.png" alt="dashboard feature image" />
+          <img
+            className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
+            src={f1}
+            alt="dashboard feature image"
+          />
         </div>
       </div>
     </div>
